@@ -25,19 +25,19 @@ main{
 	height: 150px;
 	background-image: url(img/flow01.png);
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 }
 .image2{
 	height: 150px;
 	background-image: url(img/flow02.png);
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 }
 .image3{
 	height: 150px;
 	background-image: url(img/flow03.png);
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 }
 .step{
 	position: absolute;
@@ -50,3 +50,32 @@ main{
 .title{
 	margin: 15px 0 5px;
 }
+
+@media screen and (max-width: 768px){
+	main{
+		width: 100%;
+		margin-top: 50px;
+	}
+	.contents{
+		width: 90%;
+		margin-bottom: 20px;
+		margin-left: 21px;
+		margin-right: 21px;
+	}
+	.image1{
+		height: 250px;
+	}
+	.image2{
+		height: 250px;
+	}.image3{
+		height: 250px;
+	}
+
+	.contents:last-child{
+		margin-bottom: 50px;
+	}
+}
+
+
+
+

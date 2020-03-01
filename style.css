@@ -10,7 +10,7 @@
 }
 
 main{
-	width: 960px;
+	width: 100%;
 	margin: 50px auto;
 }
 .contents{
@@ -53,14 +53,15 @@ main{
 
 @media screen and (max-width: 768px){
 	main{
-		width: 100%;
+		width: 90%;
 		margin-top: 50px;
 	}
 	.contents{
-		width: 90%;
+		width: 100%;
 		margin-bottom: 20px;
 		margin-left: 21px;
 		margin-right: 21px;
+		margin: 0 auto;
 	}
 	.image1{
 		height: 250px;

@@ -57,33 +57,31 @@ main{
 @media screen and (max-width: 768px){
 	main{
 		width: 90%;
-		margin: 50px auto;
-
+		margin: 0 auto;
 		}
 	.contents{
-		width: 90%;
-		margin-bottom: 30px;
-		margin-left: 21px;
-		margin-right: 21px;
-		
-	}
-	.contents:last-child{
-	margin-bottom: 0;
+		width: 100%;
+		margin: 30px auto;
 	}
 	.image1{
-		height: 250px;
-		
+		width: 50%;
+		min-width: 266px;
+		margin: 0 auto;
+		height: 200px;
 	}
 	.image2{
-		height: 250px;
-		
+		width: 50%;
+		min-width: 266px;
+		margin: 0 auto;
+		height: 200px;
 	}
 	.image3{
-		height: 250px;
-		
-	}
+		width: 50%;
+		min-width: 266px;
+		margin: 0 auto;
+		height: 200px;
+			}
 
-	
 }
 
 
